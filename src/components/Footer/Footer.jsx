@@ -144,7 +144,11 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p>&copy; {currentYear} Universal Ventures Inc. All rights reserved. </p>
-             <p>Developed by Innomatrics Technologies</p>
+             <p>Developed by <a href="https://www.innomatricstech.com" target="_blank" rel="noreferrer">
+    Innomatrics Technologies
+  </a>
+              
+             </p>
             <div className="footer-legal">
             </div>
           </div>

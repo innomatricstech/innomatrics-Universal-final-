@@ -67,7 +67,7 @@ const About = () => {
               is a rapidly growing conglomerate with a strong presence in multiple industries. 
             </p>
             <p>
-              Comprising of Partners namely, Manjunath S Chetty, Ahamed Basha and 
+              Comprising of Partners namely, Shri.Manjunath S Chetty, Shri.Ahamed Basha and 
                Universal Ventures - Universal group has become a trusted 
               name in construction, exports, interior solutions, trading, travel services, 
               healthcare, automobile care, and more.

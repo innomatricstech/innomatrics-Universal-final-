@@ -85,7 +85,7 @@ const AboutPage = () => {
               </p>
 
               <p>
-                Comprising of partners Manjunath S Chetty, Ahamed Basha,
+                Comprising of partners Shri.Manjunath S Chetty, Shri.Ahamed Basha,
                 Universal ventures - Universal group has become a trusted name across construction, exports,
                 trading, interiors, travel, healthcare, and more.
               </p>
