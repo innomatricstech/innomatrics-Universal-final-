@@ -2,26 +2,28 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../common/Button/Button'
 import './Hero.css'
-
+// import Img1 from "../../assets/con.png"
+import Img2 from "../../assets/feature.png"
+import Img3 from "../../assets/import.png"
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
   const [isVisible, setIsVisible] = useState(true)
 
   const slides = [
+    // {
+    //   image: Img1,
+    //   title: 'Innovating for a Better Tomorrow',
+    //   subtitle: 'Leading diverse industries with excellence, innovation, and ethical business practices',
+    //   gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
+    // },
     {
-      image: '/images/fenix-interior.jpeg',
-      title: 'Innovating for a Better Tomorrow',
-      subtitle: 'Leading diverse industries with excellence, innovation, and ethical business practices',
-      gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
-    },
-    {
-      image: '/images/fenix-builders.jpeg',
+      image: Img2,
       title: 'Building Sustainable Futures',
       subtitle: 'Quality construction and modern infrastructure for residential and commercial spaces',
       gradient: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)'
     },
     {
-      image: '/images/fenix-exports.jpeg',
+      image: Img3,
       title: 'Universal Exports & Imports',
       subtitle: 'Currently exporting premium quality rice to Saudi Arabia',
       gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)'
