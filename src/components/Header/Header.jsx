@@ -109,9 +109,9 @@ const Header = () => {
             <span className="logo-main" style={{ color: "orange" }}>
               Universal <span>Ventures</span>
             </span>
-            <span className="logo-sub" style={{ color: "green" }}>
+            {/* <span className="logo-sub" style={{ color: "green" }}>
               Universal Group
-            </span>
+            </span> */}
           </div>
         </Link>
 

@@ -58,7 +58,7 @@ const Footer = () => {
               <img src="/images/multi.png" alt="Universal Ventures" />
               <div className="logo-text">
                 <span className="logo-main">Universal Ventures</span>
-                <span className="logo-sub">Universal Group</span>
+                {/* <span className="logo-sub">Universal Group</span> */}
               </div>
             </div>
 

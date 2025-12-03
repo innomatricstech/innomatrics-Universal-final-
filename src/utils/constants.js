@@ -5,7 +5,7 @@ export const COMPANY_INFO = {
   founded: 2019,
   tagline: "Innovating for a Better Tomorrow",
   vision:
-    "Universal Ventures(Universal Group) aspires to be a leader in diverse industries, delivering excellence through innovation, ethical business practices, and customer satisfaction.",
+    "Universal Ventures aspires to be a leader in diverse industries, delivering excellence through innovation, ethical business practices, and customer satisfaction.",
   mission: [
     "To build and sustain industry-leading businesses that prioritize quality, customer trust, and long-term value.",
     "To contribute to the well-being of society by ensuring access to fundamental human needs such as food, healthcare, shelter, and education.",

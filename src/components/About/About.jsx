@@ -55,7 +55,7 @@ const About = () => {
         <div className="about-header text-center mb-4">
           <h2 className="about-title">About Universal Ventures </h2>
           <p className="about-subtitle">
-            A subsidiary of Universal Ventures - Universal Group Innovating for a Better Tomorrow
+            A subsidiary of Universal Ventures - Innovating for a Better Tomorrow
           </p>
         </div>
 

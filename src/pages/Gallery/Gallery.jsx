@@ -372,7 +372,7 @@ const Gallery = () => {
               <div className="modal-actions">
                 <button className="modal-action" onClick={handleDownload}><FiDownload /> Download</button>
                 <button className="modal-action" onClick={handleShare}><FiShare2 /> Share</button>
-                <button className="modal-close" onClick={closeModal}><FiX /></button>
+                {/* <button className="modal-close" onClick={closeModal}><FiX /></button> */}
               </div>
 
               <div className="modal-tags">
