@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../common/Button/Button'
 import './Hero.css'
-// import Img1 from "../../assets/con.png"
+import Img1 from "../../assets/image1.png"
 import Img2 from "../../assets/feature.png"
 import Img3 from "../../assets/import.png"
 const Hero = () => {
@@ -10,12 +10,12 @@ const Hero = () => {
   const [isVisible, setIsVisible] = useState(true)
 
   const slides = [
-    // {
-    //   image: Img1,
-    //   title: 'Innovating for a Better Tomorrow',
-    //   subtitle: 'Leading diverse industries with excellence, innovation, and ethical business practices',
-    //   gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
-    // },
+    {
+      image: Img1,
+      title: 'Innovating for a Better Tomorrow',
+      subtitle: 'Leading diverse industries with excellence, innovation, and ethical business practices',
+      gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
+    },
     {
       image: Img2,
       title: 'Building Sustainable Futures',
