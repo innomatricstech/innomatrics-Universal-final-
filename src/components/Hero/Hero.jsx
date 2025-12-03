@@ -5,7 +5,9 @@ import './Hero.css'
 import Img1 from "../../assets/image1.png"
 import Img2 from "../../assets/feature.png"
 import Img3 from "../../assets/import.png"
+import Img4 from "../../assets/multi.jpg"
 const Hero = () => {
+
   const [currentSlide, setCurrentSlide] = useState(0)
   const [isVisible, setIsVisible] = useState(true)
 
@@ -27,7 +29,14 @@ const Hero = () => {
       title: 'Universal Exports & Imports',
       subtitle: 'Currently exporting premium quality rice to Saudi Arabia',
       gradient: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)'
-    }
+    },
+
+     {
+    image: Img4,
+    title: 'Universal Multi Trading',
+    subtitle: 'Engaged in TMT Steel Trading with plans to expand into multi-commodity markets',
+    gradient: 'linear-gradient(135deg, #43cea2 0%, #185a9d 100%)'
+  }
   ]
 
   useEffect(() => {
