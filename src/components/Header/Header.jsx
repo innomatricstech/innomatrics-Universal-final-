@@ -105,14 +105,11 @@ const Header = () => {
             />
           </div>
 
-          <div className="logo-text">
-            <span className="logo-main" style={{ color: "orange" }}>
-              Universal <span>Ventures</span>
-            </span>
-            {/* <span className="logo-sub" style={{ color: "green" }}>
-              Universal Group
-            </span> */}
-          </div>
+               <div className="logo-text" >
+            
+  <h1 class="logo-main">Universal</h1>
+  <h2 class="logo-main">Ventures</h2>
+</div>
         </Link>
 
         {/* NAV: Added mobile CTA and link click handler */}
